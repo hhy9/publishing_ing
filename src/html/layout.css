@@ -1,0 +1,63 @@
+.container{
+  border: 1px solid black;
+  width:1200px;
+  margin: 0 auto;
+}
+
+ header {
+   background-color: blue;
+   /* height: 100px; */
+   overflow: hidden;
+   /* 자식요소에 float성질이있으면 부모요소는 높이값무시되니까 높이값을줌 */
+ }
+
+ /* header밑에 article 공통적인것 두개다 공통적인것 */
+ header article {
+   background-color: gray;
+   width: 300px;
+   height: 100px;
+ }
+
+.logo{
+  border: 1px solid red;
+  float: left; 
+  /* float = 둥둥떠서 옆에 붙는다 (둥둥뜨다) 그래서 해제하면 
+  div가 밑으로 내려감 */
+}
+
+.nav {
+  border: 1px solid green;
+  float:right;
+}
+
+.firstBox{
+  background-color: green;
+  height: 300px;
+}
+
+.twoBox {
+  background-color: green;
+  overflow: hidden;
+}
+
+.twoBox article {
+ 
+  
+  float: left;
+  width: 33.333333333333%;
+  height: 300px;
+}
+.twoBox_1{
+  background-color: brown;
+}
+.twoBox_2 {
+  background-color: chocolate;
+}
+.twoBox_3 {
+  background-color: darkgoldenrod;
+}
+footer {
+  height: 100px;
+  background-color: lightcoral;
+  
+}
