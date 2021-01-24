@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Loading from './cssAnimation/Loading'
+import DoubleBorderRadious from './cssAnimationReact/DoubleBorderRadius'
 
 function App() {
   return (
     <>
-        <Loading/>
+        <DoubleBorderRadious/>
    </>
   );
 }
