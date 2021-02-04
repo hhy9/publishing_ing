@@ -1,10 +1,10 @@
 import './App.css';
-import DoubleBorderRadious from './cssAnimationReact/DoubleBorderRadius'
+import DropDownNavHover from './cssAnimationReact/DropDownNavHover'
 
 function App() {
   return (
     <>
-        <DoubleBorderRadious/>
+        <DropDownNavHover/>
    </>
   );
 }
